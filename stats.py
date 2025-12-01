@@ -2,10 +2,6 @@ def count_words(string):
     print("----------- Word Count ----------")
     word_count = list(filter(None,string.replace('\n',' ').split(' ')))
     return len(word_count)
-    # return len(string.split(' '))
-
-def sort_on(items):
-    return items["num"]
 
 def count_each_character(string):
     print("--------- Character Count -------")
